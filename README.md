@@ -70,3 +70,16 @@ Request Service
 Submit Request
       ↓
 Confirmation
+
+📊 Data Handling
+
+The project uses a repository-based mock mechanic data source while maintaining a Retrofit API layer for REST API integration.
+The application demonstrates:
+
+API service layer
+JSON-compatible data models
+Repository pattern
+Loading state
+Error state
+Displaying mechanic data
+ViewModel-based UI state management
