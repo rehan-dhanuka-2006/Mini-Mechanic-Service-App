@@ -1,0 +1,23 @@
+<!--<resources xmlns:tools="http://schemas.android.com/tools">-->
+<!--    &lt;!&ndash; Base application theme. &ndash;&gt;-->
+<!--    <style name="Base.Theme.MiniMechanicServiceApp" parent="Theme.Material3.DayNight.NoActionBar">-->
+<!--        &lt;!&ndash; Customize your light theme here. &ndash;&gt;-->
+<!--        &lt;!&ndash; <item name="colorPrimary">@color/my_light_primary</item> &ndash;&gt;-->
+<!--    </style>-->
+
+<!--    <style name="Theme.MiniMechanicServiceApp" parent="Base.Theme.MiniMechanicServiceApp" />-->
+<!--</resources>-->
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MiniMechanicServiceApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Other color attributes like colorPrimary here... -->
+
+        <!-- 1. Change the background color of the status bar to white -->
+        <item name="android:statusBarColor">@android:color/white</item>
+
+        <!-- 2. Make the status bar icons/text dark so they are visible on white -->
+        <item name="android:windowLightStatusBar">true</item>
+
+    </style>
+</resources>
